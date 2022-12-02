@@ -10,6 +10,10 @@ const Register = () => {
           <input type="text" placeholder="display name" />
           <input type="email" placeholder="email" />
           <input type="password" placeholder="password" />
+          {/* htmlFor property reflects the value of the for content property. That
+          means that this script-accessible property is used to set and read the
+          value of the content property for , which is the ID of the label's
+          associated control element. */}
           <input style={{ display: "none" }} type="file" id="file" />
           <label htmlFor="file">
             <img src={Add} alt="" />
